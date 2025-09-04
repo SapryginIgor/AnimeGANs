@@ -1,6 +1,12 @@
 # AnimeGANs
 A few notebooks showing CycleGAN and UNet pix2pix approaches for anime sketches colorization + hf demo link
 
+## ***Demo***
+There is a Streamlit **[demo](https://huggingface.co/spaces/igor-saprygin/anime-sketch-color-gan)** on hf you can try yourself
+
+![alt text](images/pix2pix.png)
+![alt text](images/cycle.png)
+
 ## CycleGAN
 Was initially implemented for Monet2Photo dataset for which the notebook is also uploaded. The approach implies an unpaired training, hence the generators do not know about the original pictures unlike pix2pix.
 ![alt text](images/image.png)
@@ -17,3 +23,4 @@ The next approach leverages  given "answers" and uses UNet as the Generator. The
 ![alt text](images/image-5.png)
 ![alt text](images/image-6.png)
 ![alt text](images/image-7.png)
+
